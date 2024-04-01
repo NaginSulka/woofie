@@ -3,7 +3,7 @@ import React,{useState} from 'react'
 import '@fortawesome/fontawesome-free/css/all.css';
 
 
-const Todo = (props) => {
+const Todoelements = (props) => {
   
   return (
     <div className="h-12 pl-4 md:pl-6 w-[60%] md:w-[34vw] rounded border-2 mx-auto my-4 flex justify-between items-center">
@@ -16,4 +16,4 @@ const Todo = (props) => {
   )
 }
 
-export default Todo;
+export default Todoelements;

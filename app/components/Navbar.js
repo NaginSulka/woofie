@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
   return (
@@ -10,11 +11,10 @@ const Navbar = (props) => {
           </div>
           <div className="flex">
             <div className="hidden md:block">
-              <ul className="flex space-x-8">
-                <NavItem text="Home" />
-                <NavItem text="Features" />
-                <NavItem text="Services" />
-                <NavItem text="Our Work" />
+              <ul className="flex space-x-8 px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 hover:text-white">
+                <a href="/home">Home</a>
+                <a href="/services">Services</a>
+                <a href="/work">Our Work</a>
               </ul>
             </div>
           </div>
@@ -23,11 +23,5 @@ const Navbar = (props) => {
     </nav>
   );
 };
-
-const NavItem = ({ text }) => (
-  <li className="px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 hover:text-white">
-    {text}
-  </li>
-);
 
 export default Navbar;

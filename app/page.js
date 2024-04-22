@@ -1,10 +1,10 @@
-import Todo from "./Todo";
+import Todo from "./todolist/components/Todo";
 
 export default function Home() {
     
   return (
     <>
-    <Todo/>
+    ok da
     </>
   );
 }

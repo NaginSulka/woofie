@@ -1,7 +1,7 @@
 "use client"
 import { useState } from "react";
-import Input from "./components/Input";
-import Todoelements from "./components/Todoelements";
+import Input from "../components/Input";
+import Todoelements from "../components/Todoelements";
 
 const Todo = () => {
     const[listTodo,setListTodo]=useState([]);

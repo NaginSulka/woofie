@@ -12,7 +12,7 @@ const Input = (props) => {
 
   return (
     <div>
-      <div className="flex flex-col md:flex-row items-center justify-center md:space-x-5">
+      <div className="flex flex-col md:flex-row items-center justify-center md:space-x-5 mt-32">
         <input
           placeholder="Enter your text"
           className="text-black h-10 pl-4 md:w-[30vw] md:max-w-xs rounded-xl mb-2 md:mb-0"

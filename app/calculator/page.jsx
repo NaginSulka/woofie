@@ -1,12 +1,11 @@
 import React from 'react'
-import Todo from './components/Todo'
 
 const page = () => {
   return (
     <div>
-      <Todo/>
+      cacu
     </div>
   )
 }
 
-export default page;
+export default page

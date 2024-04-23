@@ -11,7 +11,7 @@ const Navbar = (props) => {
           <div className="flex">
             <div className="hidden md:block">
               <ul className="flex space-x-8">
-                <a className="px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 hover:text-white" href="/home">Home</a>
+                <a className="px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 hover:text-white" href="/calculator">Calculator</a>
                 <a className="px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 hover:text-white" href="/services">Services</a>
                 <a className="px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 hover:text-white" href="/work">Our Work</a>
               </ul>

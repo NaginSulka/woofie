@@ -1,5 +1,5 @@
 import React from 'react'
-import CalculatorBody from './components/calculatorbody'
+import CalculatorBody from './components/CalculatorBody'
 
 
 const page = () => {

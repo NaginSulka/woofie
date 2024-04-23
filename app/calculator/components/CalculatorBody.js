@@ -13,7 +13,8 @@ const CalculatorBody = () => {
     <div className='flex justify-center'>
       <div className='flex flex-col justify-evenly bg-gray-400 w-[20%] h-[65vh]'>
 
-        <div className='mx-auto'><input type="text" className='bg-gray-600' value={count} /></div>
+        {/* Updated input element */}
+        <div className='mx-auto'><input type="text" className='bg-gray-600' value={count} onChange={(e) => setCount(e.target.value)} /></div>
 
         <div className='flex space-x-3 px-3'>
           <Button value="AC" setCount={setCount} />

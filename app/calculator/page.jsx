@@ -1,11 +1,13 @@
 import React from 'react'
+import CalculatorBody from './components/calculatorbody'
 
-function page() {
-  return (
-    <div>
-      
-    </div>
-  )
+
+const page = () => {
+    return (
+        <div>
+            <CalculatorBody />
+        </div>
+    )
 }
 
 export default page
